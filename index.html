@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-requisites for JOBSINLINE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-pulse"></div>
+    <div class="login-container">
+        <div class="login-form">
+            <h1>Pre-requisites for</h1>
+            <h2>JOBSINLINE</h2>
+            <div class="input-group">
+                <label for="inputFile">Upload Input Excel File</label>
+                <input type="file" id="inputFile" accept=".xlsx,.xls">
+            </div>
+            <button id="processBtn" class="login-btn">Process File</button>
+            <div id="result" style="display: none; text-align: center; margin-top: 20px;"></div>
+        </div>
+    </div>
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
